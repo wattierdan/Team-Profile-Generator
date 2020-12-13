@@ -1,0 +1,20 @@
+body {
+    background-color: #2196F3;
+    background-size: 75px 100px;
+}
+
+.jumbotron {
+    background-color: transparent
+}
+
+h1 {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.employee-card {
+    margin: 10px 10px;
+    border: black 3px solid;
+    border-radius: 7px;
+    
+}

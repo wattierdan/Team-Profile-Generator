@@ -1,8 +1,20 @@
 # Team Profile Generator
+
+## Table of Contents
+---
+* [Description](#Description) 
+* [Installation](#Installation)
+* [Usage](#Usage) 
+* [License](#license) 
+* [Questions](#Questions)
+
+---
   
   ## Description 
   
   a software engineering team generator command line application that prompts the user for information about their team. User can input any number for team members based on roles (Manager, Engineer and Intern) and once complete a basic html page with the users team info is generated.
+
+  ![screenshot](\Develop\assets\screenshot.png)
  
   ## Installation
   To create your own Team profile page: run `npm install` to install [`inquirer`](https://www.npmjs.com/package/inquirer) which will prompt you for inputs from the command line.
@@ -28,7 +40,11 @@
   
   
 
-  If you are still unsure here is a [video](https://drive.google.com/file/d/12VLriViNuufpOsVQBMfc8Djb9eY_eCuL/view) to guide you through the process.
+  If you are still unsure here is a [video](https://drive.google.com/file/d/1oIcrsseuy8dj85lWNrl5E_iKNyYaMmuW/view) to guide you through the process.
+
+  ## License
+
+MIT License. Please see [LICENSE.txt](./LICENSE.txt) for details.
   
 
   ---
