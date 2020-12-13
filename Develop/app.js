@@ -47,8 +47,9 @@ function createTeam() {
                     break;
 
                 case "No more employees(create team page)":
-                    console.log('hi')
-                    render(employees);
+                    console.log('creating your team profile now...')
+                    render(employees)
+                    buildHtmlPage()
                     break
 
             }
@@ -85,8 +86,7 @@ function createTeam() {
                 }
 
             ]).then(userChoice => {
-                console.log(userChoice);
-
+                
                 const manager = new Manager(userChoice.managerName, userChoice.managerID, userChoice.managerEmail, userChoice.managerOfficeNumber)
 
                 employees.push(manager)
@@ -127,8 +127,7 @@ function createTeam() {
                     name: "gitHubUsername"
                 }
             ]).then(userChoice => {
-                console.log(userChoice);
-
+                
                 const engineer = new Engineer(userChoice.engineerName, userChoice.engineerID, userChoice.engineerEmail, userChoice.gitHubUsername)
 
                 employees.push(engineer)
@@ -170,8 +169,7 @@ function createTeam() {
                     name: "internSchool"
                 }
             ]).then(userChoice => {
-                console.log(userChoice);
-
+                
                 const intern = new Intern(userChoice.internName, userChoice.internID, userChoice.internEmail, userChoice.internSchool)
 
                 employees.push(intern)
@@ -181,14 +179,17 @@ function createTeam() {
     }
 }
 
-module.exports = employees
+function buildHtmlPage() {
+    let newFile = fs.readFileSync("./templates/main.html")
+    fs.writeFileSync("./output/teamPage.html", newFile, function (err) {
+        if (err) throw err;
+})
+}
 
 createTeam()
-
-
-
+module.exports = employees
     
-          // fs.writeFile(outputPath, renderMain)
+        
 
 
   

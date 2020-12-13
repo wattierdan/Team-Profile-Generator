@@ -1,4 +1,4 @@
-# Team Generator
+# Team Profile Generator
   
   ## Description 
   
@@ -26,10 +26,13 @@
   
   your team page will be created. 
   
+  
 
+  If you are still unsure here is a [video](https://drive.google.com/file/d/12VLriViNuufpOsVQBMfc8Djb9eY_eCuL/view) to guide you through the process.
+  
 
   ---
-  
+  ---
   ## Questions?
   Questions? please contact me:
  
