@@ -12,7 +12,7 @@
   
   ## Description 
   
-  a software engineering team generator command line application that prompts the user for information about their team. User can input any number for team members     based on roles (Manager, Engineer and Intern) and once complete a basic html page with the users team info is generated.
+  A software engineering team generator command line application that prompts the user for information about their team. User can input any number for team members     based on roles (Manager, Engineer and Intern) and once complete a basic html page with the users team info is generated.
 
   ![screenshot](./Develop/assets/screenshot.png)
  
