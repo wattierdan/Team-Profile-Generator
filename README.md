@@ -12,12 +12,12 @@
   
   ## Description 
   
-  a software engineering team generator command line application that prompts the user for information about their team. User can input any number for team members based on roles (Manager, Engineer and Intern) and once complete a basic html page with the users team info is generated.
+  a software engineering team generator command line application that prompts the user for information about their team. User can input any number for team members     based on roles (Manager, Engineer and Intern) and once complete a basic html page with the users team info is generated.
 
   ![screenshot](./Develop/assets/screenshot.png)
  
   ## Installation
-  To create your own Team profile page: run `npm install` to install [`inquirer`](https://www.npmjs.com/package/inquirer) which will prompt you for inputs from the command line.
+  To create your own Team profile page: run `npm install` to install [`inquirer`](https://www.npmjs.com/package/inquirer) which will prompt you for inputs from the     command line.
 
    Application can be ran by typing `app.js` in the terminal. 
 
@@ -44,7 +44,7 @@
 
   ## License
 
-MIT License. Please see [LICENSE.txt](./LICENSE.txt) for details.
+  MIT License. Please see [LICENSE.txt](./LICENSE.txt) for details.
   
 
 
