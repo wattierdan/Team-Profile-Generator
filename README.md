@@ -1,5 +1,7 @@
 # Team Profile Generator
 
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ![screenshot](./Develop/assets/screenshot.png)
 
 ## Table of Contents
